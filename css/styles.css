@@ -315,9 +315,10 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 	border-radius: 4px;
+	cursor: pointer;
 }
 
-.button-item.primary
+.button-item.primary,
 .button.primary {
 	color: var(--white-color);
 	background-color: var(--accent-color);
