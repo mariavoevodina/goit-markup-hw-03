@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,8 +22,8 @@
       <a class="logo link" href="">Web<span>Studio</span></a>
       <nav>
         <ul class="site-nav list">
-          <li class="item"><a href="" class="link">Студия</a></li>
-          <li class="item"><a href="./portfolio.html " class="link current">Портфолио</a></li>
+          <li class="item"><a href="" class="link current">Студия</a></li>
+          <li class="item"><a href="./portfolio.html " class="link">Портфолио</a></li>
           <li class="item"><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
@@ -36,15 +39,15 @@
 
 
     <main>
-	<section>
+	<section class="porfolio-filter">
 		<div class="container">
       <h1 hidden></h1>
       <ul class="list button-box">
-        <li><button type="button" class="button secondary button-item">Все</button></li>
-        <li><button type="button" class="button secondary button-item">Веб-сайты</button></li>
-        <li><button type="button" class="button secondary button-item">Приложения</button></li>
-        <li><button type="button" class="button secondary button-item">Дизайн</button></li>
-        <li><button type="button" class="button secondary button-item">Маркетинг</button></li>
+        <li class="button-item secondary">Все</li>
+        <li class="button-item secondary">Веб-сайты</li>
+        <li class="button-item secondary">Приложения</li>
+        <li class="button-item secondary">Дизайн</li>
+        <li class="button-item secondary">Маркетинг</li>
       </ul>
 	  </div>
 	  </section>
@@ -53,74 +56,92 @@
 		<div class="container">
         <ul class="portfolio-box list">
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img1.png" width="370" alt="дисплей" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <div class="portfolio-info">
+			  <h2 class="portfolio-title">Технокряк</h2>
+              <p class="portfolio-text">Веб-сайт</p>
+			  </div>
             </a>
           </li>
 
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img2.png" width="370" alt="баскетбол" />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <div class="portfolio-info">
+				<h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio-text">Дизайн</p>
+			  </div>
             </a>
           </li>
 
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img3.png" width="370" alt="морепродукты" />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
+              <div class="portfolio-info">
+			  <h2 class="portfolio-title">Ресторан Seafood</h2>
+              <p class="portfolio-text">Приложение</p>
+			  </div>
             </a>
           </li>
 
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img4.png" width="370"  alt="наушники" />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
+              <div class="portfolio-info">
+			  <h2 class="portfolio-title">Проект Prime</h2>
+              <p class="portfolio-text">Маркетинг</p>
+			  </div>
             </a>
           </li>
 
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img5.png"  width="370"alt="коробки" />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+             <div class="portfolio-info">
+			  <h2 class="portfolio-title">Проект Boxes</h2>
+              <p class="portfolio-text">Приложение</p>
+			  </div>
             </a>
           </li>
 
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img6.png" width="370"  alt="монитор" />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <div class="portfolio-info">
+			  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+              <p class="portfolio-text">Веб-сайт</p>
+			  </div>
             </a>
           </li>
 
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img7.png" width="370" alt="журнал" />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <div class="portfolio-info">
+			  <h2 class="portfolio-title">Издание Limited Edition</h2>
+              <p class="portfolio-text">Дизайн</p>
+			  </div>
             </a>
           </li>
 
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img8 (2).png" width="370" alt="тег" />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+               <div class="portfolio-info">
+			  <h2 class="portfolio-title">Проект LAB</h2>
+              <p class="portfolio-text">Маркетинг</p>
+			  </div>
             </a>
           </li>
 
           <li class="portfolio-card">
-            <a href="" class="link">
+            <a href="" class="link portfolio-link">
               <img src="./images/portfolio/img9.png" width="370" alt="ноутбук" />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+               <div class="portfolio-info">
+			  <h2 class="portfolio-title">Growing Business</h2>
+              <p class="portfolio-text">Приложение</p>
+			  </div>
             </a>
           </li>
         </ul>
@@ -137,9 +158,10 @@
         <p class="address-name">г. Киев, пр-т Леси Украинки, 26</p>
 
         <ul class="list">
-          <li><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
+          <li class="footer-item"><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
+          <li class="footer-item"><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
       </div>
+    
     
     </div>
     </ul>
