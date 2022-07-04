@@ -235,11 +235,16 @@ body {
 
 }
 
+.team-card{
+	font-size: 0;
+}
+
 .team-card+.team-card {
 	margin-left: 30px;
 }
 
 .team-name {
+	margin: 0 0 10px;
 	color: var(--primary-text-color);
 	font-weight: 500;
 	font-size: 16px;
@@ -249,6 +254,7 @@ body {
 }
 
 .team-position {
+	margin: 0;
 	color: var(--additional-tex-color);
 	font-weight: 400;
 	font-size: 16px;
@@ -257,6 +263,10 @@ body {
 	text-align: center;
 }
 
+.team-info{
+	margin: 0;
+	padding: 30px 0;
+}
 /* footer */
 .footer {
 	background-color: #2F303A;
@@ -356,18 +366,21 @@ body {
 	padding: 6px 22px;
 	background-color:#F5F4FA;
 	cursor: pointer;
+	font-weight: 500;
 }
 .button-item:first-child {
 margin: 0;
+
 }
 /* portfolio */
 
 .porfolio-filter {
-	padding: 94px 0 0;
+
+	margin: 0 0 50px;
 }
 
 .portfolio {
-padding: 50px 0 94px;
+padding: 94px 0;
 }
 
 .portfolio h2 {
